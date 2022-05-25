@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+
+    <title>Home | Registation</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row justify-content-center align-items-center inner-row">
+            <div class="col-md-5">
+                <div class="form-box registration-form p-5">
+                    <div class="form-titel">
+                        <h2 class="fw-bold mb-3">Create Account</h2>
+                        <div>
+                            <form action="post">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Enter First Name" id="floatingfName"/>
+                                    <label for="floatingfName">First Name</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Enter Last Name" id="floatinglName"/>
+                                    <label for="floatinglName">Last Name</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control form-control-sm" placeholder="Enter Email" id="floatingEmail"/>
+                                    <label for="floatinglEmail">Email</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control form-control-sm" placeholder="Enter Password" id="floatingPassword"/>
+                                    <label for="floatinglPassword">Password</label>
+                                </div>
+                                Gender<br/>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
+                                    <label class="form-check-label" for="inlineRadio1">Male</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
+                                    <label class="form-check-label" for="inlineRadio2">Female</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"/>
+                                    <label class="form-check-label" for="inlineRadio3">Other</label>
+                                </div>
+                                <div class="md-form md-outline input-with-post-icon datepicker" id="formatsSection">Date of Birth
+                                    <input placeholder="Select date" type="date" id="formats-example" class="form-control">
+                                    <label for="formats-example"></label>
+                                    <i class="fas fa-calendar input-prefix" tabindex = 0></i>
+                                </div>
+                                <div class="mt-3" align="center">
+                                    <button id="SignUp" class="btn primaryBg text-white">Sign Up</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

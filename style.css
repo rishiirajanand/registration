@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+
+body{
+    font-family: 'Roboto';
+    background: linear-gradient(90deg, rgb(111, 162, 194) 0%, rgb(110, 195, 188) 50%);
+
+}
+
+.inner-row{
+    height: 100vh;
+}
+
+.primaryBg{
+    background: rgba(141,194,111,1);
+    
+}
+
+#SignUp:hover{
+    background-color: green;
+}
+
+.primaryColor{
+    color: rgba(141,194,111,1);
+}
+.form-box{
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0,0.2), 0 5px 5px 0 rgb(0, 0, 0,0.24);
+}
